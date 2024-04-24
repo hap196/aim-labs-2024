@@ -26,7 +26,7 @@ one_hot_encoder = OneHotEncoder(sparse=False)
 encoded_features = one_hot_encoder.fit_transform(df[categorical_features])
 
 # scale numerical features
-numerical_features = ["SalesPrice", "RetailPrice", "Size", "DaysFromRelease"]
+numerical_features = ["PriceRatio", "RetailPrice", "Size", "DaysFromRelease"]
 scaler = StandardScaler()
 scaled_features = scaler.fit_transform(df[numerical_features])
 
@@ -34,7 +34,7 @@ scaled_features = scaler.fit_transform(df[numerical_features])
 X = np.hstack([scaled_features, encoded_features])
 
 # variable we want to predict
-y = df["PriceRatio"].values
+y = df["SalesPrice"].values
 
 # split data into train and test sets
 X_train, X_test, y_train, y_test = train_test_split(
