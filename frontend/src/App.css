@@ -1,0 +1,18 @@
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #a6a6a6;
+  background-image: url("./images/background.png");
+  background-size: 55%;
+  background-position: right;
+  background-repeat: no-repeat;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
