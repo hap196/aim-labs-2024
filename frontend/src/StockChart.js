@@ -6,7 +6,7 @@ const StockChart = ({ selectedShoe }) => {
   const [chartData, setChartData] = useState([]);
   const [maxY, setMaxY] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [chart, setChart] = useState(null); // Add this line
+  const [chart, setChart] = useState(null);
 
   useEffect(() => {
     setLoading(true);
@@ -38,9 +38,9 @@ const StockChart = ({ selectedShoe }) => {
   useEffect(() => {
     if (!loading) {
       if (chart) {
-        chart.destroy(); // Destroy the old chart
+        chart.destroy(); 
       }
-      // Only render the chart if not loading
+
       var options = {
         series: [
           {
@@ -104,7 +104,7 @@ const StockChart = ({ selectedShoe }) => {
 
       var newChart = new ApexCharts(document.querySelector("#chart"), options);
       newChart.render();
-      setChart(newChart); // Store the new chart instance
+      setChart(newChart); 
     }
   }, [chartData, selectedShoe, maxY, loading]);
 

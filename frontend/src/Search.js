@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Select } from "antd";
 import Papa from "papaparse";
 import data from "./data/AveragePredictedSalesPrice.csv";
+import "./Search.css";
 
 const Search = ({ onShoeSelect }) => {
   const [options, setOptions] = useState([]);
@@ -15,8 +16,8 @@ const Search = ({ onShoeSelect }) => {
           .map((row) => {
             if (row["SneakerName"]) {
               return {
-                value: row["SneakerName"], // Store the original shoe name as the value
-                label: row["SneakerName"].replace(/-/g, " "), // Display the shoe name without dashes as the label
+                value: row["SneakerName"],
+                label: row["SneakerName"].replace(/-/g, " "),
               };
             } else {
               return null;
@@ -30,13 +31,13 @@ const Search = ({ onShoeSelect }) => {
   }, []);
 
   const handleSelect = (value) => {
-    onShoeSelect(value); // Pass the original shoe name to onShoeSelect
+    onShoeSelect(value);
   };
 
   return (
     <Select
       showSearch
-      style={{ width: 200 }}
+      style={{ width: "80%", fontSize: "1.2em" }}
       placeholder="Search to Select"
       optionFilterProp="children"
       filterOption={(input, option) => (option?.label ?? "").includes(input)}
@@ -46,7 +47,7 @@ const Search = ({ onShoeSelect }) => {
           .localeCompare((optionB?.label ?? "").toLowerCase())
       }
       options={options}
-      onSelect={handleSelect} // Call handleSelect when an option is selected
+      onSelect={handleSelect}
     />
   );
 };
