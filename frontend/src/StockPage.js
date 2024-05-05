@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Search from './Search';
 import StockChart from './StockChart';
 import ShoeDetails from './ShoeDetails';
+import Prediction from './Prediction';
 import './StockPage.css';
 
 const StockPage = () => {
@@ -18,6 +19,7 @@ const StockPage = () => {
       </div>
       {selectedShoe && <ShoeDetails selectedShoe={selectedShoe} />}
       {selectedShoe && <StockChart selectedShoe={selectedShoe} />}
+      {selectedShoe && <Prediction selectedShoe={selectedShoe} />}
     </div>
   );
 };
