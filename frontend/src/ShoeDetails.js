@@ -79,7 +79,7 @@ const ShoeDetails = ({ selectedShoe }) => {
     <div className="center-text">
       <Title level={3}>{capitalizeFirstLetter(selectedShoe)}</Title>
       <Title level={2} className="predicted-price">
-       Predicted Price: ${parseFloat(predictedSalesPrice).toFixed(2)}
+       Predicted Sales Price: ${parseFloat(predictedSalesPrice).toFixed(2)}
       </Title>
       <Row gutter={16}>
         <Col span={6}>
