@@ -1,0 +1,51 @@
+Brand,SneakerName,RetailPrice,ReleaseDate,Brand1,Brand2,ProductId,Color,PredictedSalesPrice
+ Yeezy,adidas-yeezy-boost-350-low-v2-beluga,220,9/24/2016,adidas,yeezy,boost-350-low-v2,beluga,766.5732754618474
+ Yeezy,adidas-yeezy-boost-350-v2-core-black-copper,220,11/23/2016,adidas,yeezy,boost-350-v2-core-copper,black,654.6057301777779
+ Yeezy,adidas-yeezy-boost-350-v2-core-black-green,220,11/23/2016,adidas,yeezy,boost-350-v2-core,black-green,617.1791973469387
+ Yeezy,adidas-yeezy-boost-350-v2-core-black-red,220,11/23/2016,adidas,yeezy,boost-350-v2-core,black-red,889.3880977814568
+ Yeezy,adidas-yeezy-boost-350-v2-core-black-red-2017,220,2/11/2017,adidas,yeezy,boost-350-v2-core-2017,black-red,768.4584995768834
+ Yeezy,adidas-yeezy-boost-350-v2-core-black-white,220,12/17/2016,adidas,yeezy,boost-350-v2-core,black-white,710.2818508534622
+ Yeezy,adidas-yeezy-boost-350-v2-cream-white,220,4/29/2017,adidas,yeezy,boost-350-v2,cream-white,308.82963125865666
+ Yeezy,adidas-yeezy-boost-350-v2-zebra,220,2/25/2017,adidas,yeezy,boost-350-v2,zebra,379.3993952917903
+ Yeezy,adidas-yeezy-boost-350-low-moonrock,200,11/14/2015,adidas,yeezy,boost-350-low,moonrock,948.9016451
+Off-White,nike-air-max-90-off-white,160,9/9/2017,nike,off-white,air-max-90,,695.3749315629984
+Off-White,nike-air-presto-off-white,160,9/9/2017,nike,off-white,air-presto,,1103.6154784060402
+Off-White,nike-air-vapormax-off-white,250,9/9/2017,nike,off-white,air-vapormax,,812.1819597714285
+Off-White,air-jordan-1-retro-high-off-white-chicago,190,9/9/2017,air-jordan,off-white,1-retro-high-chicago,,1662.1227615629139
+Off-White,nike-blazer-mid-off-white,130,9/9/2017,nike,off-white,blazer-mid,,679.7557209580838
+ Yeezy,adidas-yeezy-boost-350-low-pirate-black-2016,200,2/19/2016,adidas,yeezy,boost-350-low-2016,pirate-black,931.7992174590164
+ Yeezy,adidas-yeezy-boost-350-low-oxford-tan,200,12/29/2015,adidas,yeezy,boost-350-low-oxford,tan,957.102164
+ Yeezy,adidas-yeezy-boost-350-low-turtledove,200,6/27/2015,adidas,yeezy,boost-350-low,turtledove,1349.6050755882352
+ Yeezy,adidas-yeezy-boost-350-low-pirate-black-2015,200,8/22/2015,adidas,yeezy,boost-350-low-2015,pirate-black,861.082341368421
+ Yeezy,adidas-yeezy-boost-350-v2-semi-frozen-yellow,220,11/18/2017,adidas,yeezy,boost-350-v2,semi-frozen-yellow,400.010326775855
+Off-White,nike-air-force-1-low-off-white,170,11/1/2017,nike,off-white,air-force-1-low,,693.1054723739495
+Off-White,nike-air-max-97-off-white,190,11/1/2017,nike,off-white,air-max-97,,654.1686414889706
+Off-White,nike-air-force-1-low-virgil-abloh-off-white-af100,150,11/4/2017,nike,off-white,air-force-1-low-virgil-abloh-af100,,916.9197658064516
+Off-White,nike-react-hyperdunk-2017-flyknit-off-white,200,11/1/2017,nike,off-white,react-hyperdunk-2017-flyknit,,499.0823120247934
+Off-White,nike-zoom-fly-off-white,170,11/1/2017,nike,off-white,zoom-fly,,537.471603862069
+ Yeezy,adidas-yeezy-boost-350-v2-beluga-2pt0,220,11/25/2017,adidas,yeezy,boost-350-v2-2pt0,beluga,414.4713938239538
+ Yeezy,adidas-yeezy-boost-350-v2-blue-tint,220,12/16/2017,adidas,yeezy,boost-350-v2,tint-blue,394.7302122157685
+Off-White,nike-air-vapormax-off-white-2018,250,4/14/2018,nike,off-white,air-vapormax-2018,,590.1535396480201
+Off-White,air-jordan-1-retro-high-off-white-white,190,3/3/2018,air-jordan,off-white,1-retro-high,white,1601.1462415335463
+Off-White,nike-air-vapormax-off-white-black,250,3/30/2018,nike,off-white,air-vapormax,black,634.7794332063976
+Off-White,air-jordan-1-retro-high-off-white-university-blue,190,6/23/2018,air-jordan,off-white,1-retro-high-university,blue,812.9647210161812
+Off-White,nike-air-presto-off-white-black-2018,160,7/27/2018,nike,off-white,air-presto-2018,black,717.8198282961783
+Off-White,nike-air-presto-off-white-white-2018,160,8/3/2018,nike,off-white,air-presto-2018,white,633.4649868613914
+Off-White,nike-zoom-fly-mercurial-off-white-black,200,6/14/2018,nike,off-white,zoom-fly-mercurial,black,373.1214483875969
+Off-White,nike-zoom-fly-mercurial-off-white-total-orange,200,6/14/2018,nike,off-white,zoom-fly-mercurial-total,orange,304.0677947865854
+ Yeezy,adidas-yeezy-boost-350-v2-butter,220,6/30/2018,adidas,yeezy,boost-350-v2,butter,287.8822945522192
+Off-White,nike-air-max-97-off-white-elemental-rose-queen,190,8/25/2018,nike,off-white,air-max-97-elel,menta-rose-queen,836.2706667129629
+Off-White,nike-blazer-mid-off-white-all-hallows-eve,130,10/3/2018,nike,off-white,blazer-mid-all,hallows-eve,610.1864787874564
+Off-White,nike-blazer-mid-off-white-grim-reaper,130,10/3/2018,nike,off-white,blazer-mid,grim-reaper,535.4519156437768
+ Yeezy,adidas-yeezy-boost-350-v2-sesame,220,11/23/2018,adidas,yeezy,boost-350-v2,sesame,281.4698208373852
+Off-White,nike-blazer-mid-off-white-wolf-grey,130,8/25/2018,nike,off-white,blazer-mid,wolf-grey,771.6333247222223
+Off-White,nike-air-max-97-off-white-menta,190,10/18/2018,nike,off-white,air-max-97,menta,740.0391326239067
+Off-White,nike-air-max-97-off-white-black,190,10/18/2018,nike,off-white,air-max-97,black,668.3116927335641
+Off-White,nike-zoom-fly-off-white-black-silver,170,10/13/2018,nike,off-white,zoom-fly,black-silver,330.58000153846154
+Off-White,nike-zoom-fly-off-white-pink,170,11/28/2018,nike,off-white,zoom-fly,pink,291.7897281236203
+Off-White,nike-air-force-1-low-off-white-volt,170,12/19/2018,nike,off-white,air-force-1-low,volt,404.558308047105
+Off-White,nike-air-force-1-low-off-white-black-white,170,12/19/2018,nike,off-white,air-force-1-low,black-white,514.0547528645833
+ Yeezy,adidas-yeezy-boost-350-v2-static,220,12/27/2018,adidas,yeezy,boost-350-v2,static,309.50726508930364
+ Yeezy,adidas-yeezy-boost-350-v2-static-reflective,220,12/26/2018,adidas,yeezy,boost-350-v2,reflective-static,473.91570202261306
+Off-White,nike-air-max-90-off-white-black,160,2/7/2019,nike,off-white,air-max-90,black,559.6259086426593
+Off-White,nike-air-max-90-off-white-desert-ore,160,2/7/2019,nike,off-white,air-max-90,desert-ore,545.2922510477658

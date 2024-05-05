@@ -1,0 +1,11 @@
+.center-text {
+  text-align: center;
+}
+
+.predicted-price-label {
+  margin-bottom: 0;
+}
+
+.predicted-price {
+  margin-bottom: 5%;
+}
