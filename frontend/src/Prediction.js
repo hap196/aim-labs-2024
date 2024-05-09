@@ -8,8 +8,8 @@ const YourComponent = () => {
     try {
       const response = await axios.post('http://localhost:5000/predict', {
         // replace with input data here
-        Brand: ' Yeezy',
-        'Sneaker Name': 'adidas-yeezy-boost-350-low-v2-beluga',
+        // Brand: ' Yeezy',
+        SneakerNamePred: 'nike',
         Brand1: 'adidas',
         Brand2: 'yeezy',
         // ProductId: 'boost-350-low-v2',
