@@ -8,14 +8,14 @@ const YourComponent = () => {
     try {
       const response = await axios.post('http://localhost:5000/predict', {
         // replace with input data here
-        Brand: 'Yeezy',
+        Brand: ' Yeezy',
         'Sneaker Name': 'adidas-yeezy-boost-350-low-v2-beluga',
         Brand1: 'adidas',
         Brand2: 'yeezy',
-        ProductId: 'boost-350-low-v2',
+        // ProductId: 'boost-350-low-v2',
         Color: 'beluga',
         Color2: 'black',
-        PriceRatio: 4.986363636363636,
+        // PriceRatio: 4.986363636363636,
         RetailPrice: 220.0,
         Size: 11.0,
         DaysFromRelease: 342
