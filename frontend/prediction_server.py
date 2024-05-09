@@ -17,9 +17,9 @@ def predict():
 
     
     categorical_features = [
-        "Brand", "Sneaker Name", "Brand1", "Brand2", "ProductId", "Color", "Color2",
+        "Brand", "Sneaker Name", "Brand1", "Brand2", "Color", "Color2",
     ]
-    numerical_features = ["PriceRatio", "RetailPrice", "Size", "DaysFromRelease"]
+    numerical_features = ["RetailPrice", "Size", "DaysFromRelease"]
 
     
     one_hot_encoder = OneHotEncoder(sparse_output=False)

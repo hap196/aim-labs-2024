@@ -41,4 +41,3 @@ app.post('/predict', function(req, res) {
 app.listen(8000, function() {
     console.log('App running on port 8000');
 });
-v
