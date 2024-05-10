@@ -13,7 +13,7 @@ const About = () => {
       <p>
         Limited edition and luxury sneaker price and demand fluctuates so
         greatly that the sneaker resale industry is often considered a stock
-        market. It is extremely difficult to predict
+        market. It is extremely difficult to predict.
       </p>
       <h3 className="about-subtitle">What SneakIn Does</h3>
       <p>
