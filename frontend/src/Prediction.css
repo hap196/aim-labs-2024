@@ -1,0 +1,65 @@
+.bestPriceBtn.ant-btn-primary {
+    font-size: 1.8em;
+    border: none !important;
+    font-weight: bold;
+    background-color: transparent !important;
+    color: #213692 !important;
+    transition: font-size 0.5s ease;
+    margin-top: 3%;
+    box-shadow: none !important; 
+    margin-bottom: 2%;
+  }
+  
+  .bestPriceBtn.ant-btn-primary:hover{
+    background-color: transparent !important; 
+    color: #213692 !important;
+    font-size: 2.0em !important; 
+    border: none !important;
+
+  }
+
+  .bestPriceBtn.ant-btn-primary:focus {
+    outline: none !important;
+  }
+  
+  .bestPriceBtn.ant-btn-primary:active {
+    background-color: transparent !important; 
+    color: #213692 !important;
+    font-size: 1.8em !important; 
+    border: none !important;
+    outline: none !important;
+  }
+
+
+  .bestPriceContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modalContent {
+    text-align: center; 
+  }
+  
+  .modalContent p {
+    margin: 0; 
+  }
+  
+  .modalContent .label {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-top: 7%;
+  }
+  
+  .modalContent .price {
+    color: #213692;
+    font-size: 2.7em;
+    font-weight: bold;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  .pricefuture {
+    margin-bottom: 5%;
+    font-size: 2.6em !important;
+  }

@@ -1,7 +1,7 @@
 import torch
 from transformers import AutoTokenizer
 
-model_path = '/Users/haileypan/Documents/GitHub/aim-labs-2024/final_model/bert_model.pth'
+model_path = r'C:\Users\leann\Documents\aim-labs-2024\final_model\bert_model.pth'
 model = torch.load(model_path)
 model.eval()  
 

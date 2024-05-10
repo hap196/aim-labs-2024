@@ -1,0 +1,71 @@
+body, html {
+  overflow: hidden;
+}
+.PredictionPageStyle {
+  width: 100;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 10%;
+  position: relative;
+  overflow: hidden;
+  margin-top: -3%;
+}
+
+
+.PredictionPageStyle::before {
+  content: "";
+  position: absolute;
+  top: -12%;
+  left: -10%;
+  width: 70%;
+  height: 120%;
+  background: url("./images/glassmorphism_bg.png") no-repeat left top;
+  background-size: cover;
+  z-index: -1;
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+  overflow: hidden;
+  overflow-x: hidden;
+  /* transform: scaleX(-1);  */
+}
+
+.PredictionPageStyle::after {
+  content: "";
+  position: absolute;
+  bottom: -10%; /* Position at bottom right */
+  right: -10%;
+  width: 35%; /* Make image smaller */
+  height: 60%; /* Make image smaller */
+  background: url("./images/graph.png") no-repeat right bottom; /* Replace with your image path */
+  background-size: cover;
+  z-index: -1;
+  mask-image: radial-gradient(
+    circle at left bottom,
+    rgba(0, 0, 0, 0.2) 20%,
+    rgba(0, 0, 0, 0.6) 100%
+  );
+  transform: rotate(-4deg); /* Rotate image */
+}
+
+.InputFormStyle {
+  flex: 0.7;
+  margin-left: 3%;
+}
+
+.PredictionText {
+  flex: 0.3;
+  text-align: left;
+  margin-right: 3%;
+}
+
+.PredictionTitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 5%;
+  color: #213692;
+}
+
+.InputFormCard {
+  width: 100%;
+}

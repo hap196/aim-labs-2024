@@ -8,12 +8,12 @@ from bert_predict import sneaker_sentiment
 
 app = Flask(__name__)
 CORS(app)
-model = tf.keras.models.load_model('/Users/haileypan/Documents/GitHub/aim-labs-2024/final_model/Sneaker Sales Price Prediction Model.h5')
+model = tf.keras.models.load_model(r'C:\Users\leann\Documents\aim-labs-2024\final_model\Sneaker Sales Price Prediction Model.h5')
 
-with open('/Users/haileypan/Documents/GitHub/aim-labs-2024/final_model/One Hot Encoder.pkl', 'rb') as f:
+with open(r'C:\Users\leann\Documents\aim-labs-2024\final_model\One Hot Encoder.pkl', 'rb') as f:
     one_hot_encoder = pickle.load(f)
 
-with open('/Users/haileypan/Documents/GitHub/aim-labs-2024/final_model/Scaler.pkl', 'rb') as f:
+with open(r'C:\Users\leann\Documents\aim-labs-2024\final_model\scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
 @app.route('/predict', methods=['POST'])
@@ -37,7 +37,7 @@ def predict():
     X = np.hstack([scaled_features, encoded_features])
 
     # predict
-    predictions = model.predict(X)
+    predictions = model.predict(X) / 79
     rounded_prediction = "{:.2f}".format(predictions[0][0])
 
     return jsonify({'prediction': rounded_prediction})

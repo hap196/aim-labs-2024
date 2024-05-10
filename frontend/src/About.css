@@ -1,0 +1,39 @@
+.about-page {
+  width: 50%;
+  margin: 5% auto 0;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  gap: 2%;
+}
+
+.team-members div {
+  flex: 1;
+  text-align: center;
+  margin: 2% 2%;
+}
+
+.team-members img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  border-radius: 3%;
+}
+
+.about-title {
+  margin-bottom: 2%;
+  font-weight: bold;
+}
+.about-subtitle {
+  color: #213692;
+  font-size: 1.3em;
+  margin-top: 4%;
+}
+
+.team-members p {
+  font-style: italic;
+  margin-top: 2%;
+  color: #213692;
+}
