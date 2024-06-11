@@ -5,15 +5,20 @@ import numpy as np
 import pandas as pd
 import pickle
 from bert_predict import sneaker_sentiment
+import os
 
 app = Flask(__name__)
 CORS(app)
-model = tf.keras.models.load_model(r'C:\Users\leann\Documents\aim-labs-2024\final_model\Sneaker Sales Price Prediction Model.h5')
+model_path = os.path.join(os.path.dirname(__file__), 'final_model', 'Sneaker Sales Price Prediction Model.h5')
+one_hot_encoder_path = os.path.join(os.path.dirname(__file__), 'final_model', 'One Hot Encoder.pkl')
+scaler_path = os.path.join(os.path.dirname(__file__), 'final_model', 'scaler.pkl')
 
-with open(r'C:\Users\leann\Documents\aim-labs-2024\final_model\One Hot Encoder.pkl', 'rb') as f:
+model = tf.keras.models.load_model(model_path)
+
+with open(one_hot_encoder_path, 'rb') as f:
     one_hot_encoder = pickle.load(f)
 
-with open(r'C:\Users\leann\Documents\aim-labs-2024\final_model\scaler.pkl', 'rb') as f:
+with open(scaler_path, 'rb') as f:
     scaler = pickle.load(f)
 
 @app.route('/predict', methods=['POST'])
