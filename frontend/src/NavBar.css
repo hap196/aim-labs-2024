@@ -2,12 +2,15 @@
     display: flex;
     justify-content: center;
     margin: 2%;
+    padding: 1rem;
   }
   
   .navbar a {
     color: #213692;
     margin-left: 3%;
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
   }
   
   .navbar a:hover {
@@ -16,4 +19,5 @@
   
   .navbar .active {
     color: #5b36b3;
+    font-weight: bold;
   }
